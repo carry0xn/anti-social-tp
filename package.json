@@ -1,15 +1,23 @@
 {
-  "name": "anti-social",
+  "name": "social-network-app",
   "version": "1.0.0",
-  "description": "UnaHur anti-social net - Trabajo Práctico",
-  "main": "index.js",
+  "description": "Red social para práctica con Sequelize y Express",
+  "main": "nodemon index.js",
   "scripts": {
     "dev": "nodemon src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Gerardo Gonzalez Tulian",
+  "author": "estudiante-dev",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.3"
+  },
+  "dependencies": {
+    "antd": "^5.24.9",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
   }
 }
